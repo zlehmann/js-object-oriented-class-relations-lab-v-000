@@ -26,6 +26,6 @@ Construct the following classes:
 
 `Trip` class:
   + A trip belongs to a driver and belongs to a passenger.
-  + `new Trip()` - initialized with an instance of driver and an instance of passenger; returns a JavaScript that has attributes `id`, `driverId`, and `passengerId`
+  + `new Trip()` - initialized with an instance of driver and an instance of passenger; returns a JavaScript that object has attributes `id`, `driverId`, and `passengerId`
   + `driver()` - returns the driver associated with the trip
   + `passenger()` - returns the passenger associated with the trip
