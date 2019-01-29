@@ -13,18 +13,19 @@ Each class should be defined in such a way that it adds an incrementing id to ea
 Construct the following classes:
 
 `Driver` class:
-  + `new Driver()` - initialized with a name
-  + `new Driver()` — returns a JavaScript object that has attributes of `id`, and `name`
+  + A driver has many trips, and has many passengers through trips.
+  + `new Driver()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
   + `trips()` - returns all of the trips that a driver has taken
   + `passengers()` - returns all of the passengers that a driver has taken on a trip
 
 `Passenger` class:
-  + `new Passenger()` - initialized with a name
-  + `new Passenger()` — returns a JavaScript object that has attributes of `id`, and `name`
+  + A passenger has many trips, and has many drivers through trips.
+  + `new Passenger()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
   + `trips()` - returns all of the trips that a passenger has taken
   + `drivers()` - returns all of the drivers that has taken a passenger on a trip
+
 `Trip` class:
-  + `new Trip()` - initialized with an instance of driver and an instance of passenger
-  + `new Trip()` - returns a JavaScript that has attributes `id`, `driverId`, and `passengerId`
+  + A trip belongs to a driver and belongs to a passenger.
+  + `new Trip()` - initialized with an instance of driver and an instance of passenger; returns a JavaScript that object has attributes `id`, `driverId`, and `passengerId`
   + `driver()` - returns the driver associated with the trip
   + `passenger()` - returns the passenger associated with the trip
