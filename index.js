@@ -22,7 +22,9 @@ class Driver {
     let result = [];
     let i = 0;
     for (i = 0; i < this.trips().length; i++) {
+      result.push(this.trips()[i].passenger);
     }
+    return result;
   }
 }
 
