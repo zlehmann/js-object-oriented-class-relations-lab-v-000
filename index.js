@@ -17,6 +17,10 @@ class Driver {
       }.bind(this)
     );
   }
+
+  passengers() {
+
+  }
 }
 
 let passengerId = 0;
