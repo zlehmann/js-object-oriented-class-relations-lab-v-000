@@ -21,11 +21,7 @@ class Driver {
   passengers() {
     let result = [];
     for (trip in this.trips()) {
-      store.passengers.find(
-        function(passenger) {
-          return passenger.id === trip.passengerId;
-      }.bind(this)
-    );
+    }
   }
 }
 
