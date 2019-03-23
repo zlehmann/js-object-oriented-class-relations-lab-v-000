@@ -22,7 +22,7 @@ class Driver {
     let result = [];
     let i = 0;
     for (i = 0; i < this.trips().length; i++) {
-      result.push(this.trips()[i].passenger);
+      result.push(this.trips()[i].passenger());
     }
     console.log(this.trips());
     console.log(result);
