@@ -20,7 +20,7 @@ class Driver {
 
   passengers() {
     let result = [];
-    for (trip in trips()) {
+    for (trip in this.trips()) {
       store.passengers.find(
         function(passenger) {
           return passenger.id === trip.passengerId;
