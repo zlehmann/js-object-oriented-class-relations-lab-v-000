@@ -47,6 +47,17 @@ class Passenger {
       }.bind(this)
     );
   }
+
+  drivers() {
+    let result = [];
+    let i = 0;
+    for (i = 0; i < this.trips().length; i++) {
+      result.push(this.trips()[i].driver());
+    }
+    console.log(this.trips());
+    console.log(result);
+    return result;
+  }
 }
 
 let tripId = 0;
