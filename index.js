@@ -24,6 +24,7 @@ class Driver {
     for (i = 0; i < this.trips().length; i++) {
       result.push(this.trips()[i].passenger);
     }
+    console.log(result);
     return result;
   }
 }
