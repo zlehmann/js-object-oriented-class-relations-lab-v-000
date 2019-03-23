@@ -20,8 +20,8 @@ class Driver {
 
   passengers() {
     let result = [];
-    let trip = 0;
-    for (trip in this.trips()) {
+    let i = 0;
+    for (i = 0; i < this.trips().length; i++) {
     }
   }
 }
