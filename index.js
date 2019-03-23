@@ -20,7 +20,7 @@ class Driver {
 
   passengers() {
     let result = [];
-    let trip;
+    let trip = 0;
     for (trip in this.trips()) {
     }
   }
